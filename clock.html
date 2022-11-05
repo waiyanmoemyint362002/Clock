@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clock.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Dark Whit Toggle button -->
+    <div class="day-night">
+        <i class="fas fa-sun light"></i>
+        <i class="fas fa-moon dark"></i>
+    </div>
+
+    <!-- Normal clock  -->
+    <div class="clock">
+        <div class="date"></div>
+        <div class="hour">
+            <div class="hr" id="hr"></div>
+        </div>
+        <div class="min">
+            <div class="mn" id="mn"></div>
+        </div>
+        <div class="sec">
+            <div class="sc" id="sc"></div>
+        </div>
+    </div>
+
+    <div class="digital">
+        <div id="di_h"></div>
+        <div id="di_m"></div>
+        <div id="di_s"></div>
+        <div id="di_daynight"></div>
+
+    </div>
+    <script src="clock.js"></script>
+</body>
+
+</html>
